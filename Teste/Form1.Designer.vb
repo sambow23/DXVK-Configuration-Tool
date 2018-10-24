@@ -77,12 +77,11 @@ Partial Class Form1
         'CheckBox3
         '
         Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox3.ForeColor = System.Drawing.Color.White
         Me.CheckBox3.Location = New System.Drawing.Point(152, 59)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(61, 20)
+        Me.CheckBox3.Size = New System.Drawing.Size(64, 20)
         Me.CheckBox3.TabIndex = 16
         Me.CheckBox3.Text = "Vsync"
         Me.CheckBox3.UseVisualStyleBackColor = True
@@ -90,12 +89,11 @@ Partial Class Form1
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox4.ForeColor = System.Drawing.Color.White
         Me.CheckBox4.Location = New System.Drawing.Point(25, 59)
         Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(112, 20)
+        Me.CheckBox4.Size = New System.Drawing.Size(115, 20)
         Me.CheckBox4.TabIndex = 17
         Me.CheckBox4.Text = "D3D10 Support"
         Me.CheckBox4.UseVisualStyleBackColor = True
@@ -150,12 +148,11 @@ Partial Class Form1
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CheckBox5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox5.ForeColor = System.Drawing.Color.White
         Me.CheckBox5.Location = New System.Drawing.Point(25, 85)
         Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(191, 20)
+        Me.CheckBox5.Size = New System.Drawing.Size(194, 20)
         Me.CheckBox5.TabIndex = 18
         Me.CheckBox5.Text = "Fake Stream Output Support"
         Me.CheckBox5.UseVisualStyleBackColor = True
