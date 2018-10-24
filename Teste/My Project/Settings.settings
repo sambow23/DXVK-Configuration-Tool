@@ -6,7 +6,7 @@
       <Value Profile="(Default)">0.90</Value>
     </Setting>
     <Setting Name="fakeso" Type="System.String" Scope="User">
-      <Value Profile="(Default)">False</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="vsync" Type="System.String" Scope="User">
       <Value Profile="(Default)">0</Value>
