@@ -23,25 +23,20 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
@@ -52,17 +47,6 @@ Partial Class Form1
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(2, 45)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(307, 80)
-        Me.Label4.TabIndex = 10
-        Me.Label4.Text = resources.GetString("Label4.Text")
         '
         'CheckBox1
         '
@@ -125,13 +109,8 @@ Partial Class Form1
         'SplitContainer1.Panel1
         '
         Me.SplitContainer1.Panel1.BackColor = System.Drawing.Color.Maroon
-        Me.SplitContainer1.Panel1.Controls.Add(Me.TextBox3)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Label10)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Label6)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.TextBox1)
         Me.SplitContainer1.Panel1.Controls.Add(Me.CheckBox1)
         Me.SplitContainer1.Panel1.Controls.Add(Me.CheckBox2)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Label4)
         '
         'SplitContainer1.Panel2
         '
@@ -144,50 +123,6 @@ Partial Class Form1
         Me.SplitContainer1.Size = New System.Drawing.Size(560, 210)
         Me.SplitContainer1.SplitterDistance = 310
         Me.SplitContainer1.TabIndex = 20
-        '
-        'TextBox3
-        '
-        Me.TextBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.ForeColor = System.Drawing.Color.White
-        Me.TextBox3.Location = New System.Drawing.Point(132, 168)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(70, 26)
-        Me.TextBox3.TabIndex = 25
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(8, 172)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(121, 16)
-        Me.Label10.TabIndex = 24
-        Me.Label10.Text = "maxSharedMemory"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(8, 139)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(118, 16)
-        Me.Label6.TabIndex = 22
-        Me.Label6.Text = "maxDeviceMemory"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.White
-        Me.TextBox1.Location = New System.Drawing.Point(132, 137)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(70, 26)
-        Me.TextBox1.TabIndex = 16
         '
         'ComboBox1
         '
@@ -248,16 +183,22 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(565, 30)
         Me.Panel2.TabIndex = 19
         '
-        'Label7
+        'Button3
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(9, 6)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(304, 16)
-        Me.Label7.TabIndex = 18
-        Me.Label7.Text = "DXVK Configuration - Easily create dxvk.config files"
+        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Ubuntu", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.White
+        Me.Button3.Location = New System.Drawing.Point(491, -1)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(33, 31)
+        Me.Button3.TabIndex = 21
+        Me.Button3.Text = "_"
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -276,22 +217,16 @@ Partial Class Form1
         Me.Button2.Text = "X"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Button3
+        'Label7
         '
-        Me.Button3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DodgerBlue
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Ubuntu", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(491, -1)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(33, 31)
-        Me.Button3.TabIndex = 21
-        Me.Button3.Text = "_"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(9, 6)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(367, 16)
+        Me.Label7.TabIndex = 18
+        Me.Label7.Text = "DXVK Configuration Tool Alpha - Easily create dxvk.config files"
         '
         'Button4
         '
@@ -359,7 +294,6 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Label4 As Label
     Friend WithEvents CheckBox1 As CheckBox
     Friend WithEvents CheckBox2 As CheckBox
     Friend WithEvents CheckBox3 As CheckBox
@@ -369,10 +303,6 @@ Partial Class Form1
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Button4 As Button
